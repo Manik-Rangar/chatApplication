@@ -1,0 +1,163 @@
+body{
+    /* background-color: powderblue; */
+    box-sizing: border-box;
+    padding: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    background-image: url("https://images.unsplash.com/photo-1542559272-819e1934ac51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");
+
+    /* background-image: url("http://techhead.co/wp-content/uploads/2014/12/New-vChat-Logo-White.png"); */
+    /* background: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 550px;
+    height: 500px;
+    border: 4px solid black;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    overflow-y: scroll;   
+}
+
+.lower{
+    
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#username{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#time{
+
+   float: right;
+   font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.left{
+
+    background-color: rgb(190, 186, 186);
+    border: 2px solid honeydew;
+    width: 50%;
+    float: left;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.right{
+
+    background-color: rgb(114, 97, 127);
+    border: 2px solid honeydew;
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 5px;
+    margin: 10px;
+    
+
+}
+
+#input_form{
+    width: 550px;
+    
+    border: 4px solid rgb(21, 24, 22);
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px ;
+
+}
+
+
+#input_form input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px ;
+    padding: 10px;
+}
+
+#input_form button{
+    
+    display: inline-block;
+    height: 35px;
+    width: 12%;
+    font-family: cursive;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 5px;
+    
+    
+
+}
+
+#landing-form{
+    border-radius: 30px;
+    width: 50vw;
+    height:50vh;
+    background:linear-gradient(45deg, black, transparent);
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-family:cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(24, 88, 192);
+    text-shadow: 2px 2px white;
+}
+
+#landing-form input{
+
+    width: 50%;
+    height: 25px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#landing-form label{
+
+
+}
+
+#landing-form button{
+
+    
+  
+    margin: 10px;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px solid blue;
+    background-color: rgb(165, 187, 219);
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+#landing-form button:hover{
+    background-color: rgb(103, 173, 103);
+    border-color: green;
+    transform: scale(1.2);
+    transition: ease-in;
+    transition-duration: 2sec;
+    
+    
+}
+
+
